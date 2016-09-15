@@ -2,7 +2,7 @@
 /*
 Plugin Name: Boise State Scan New Content
 Description: Triggers an accessibility scan of each new or updated page and post. Adds an admin menu and form for maintaining associated info.
-Version: 0.0.6
+Version: 0.0.7
 Author: David Lentz
  */
 
@@ -51,13 +51,13 @@ add_filter('publish_page', 'boise_state_scan_new_content');
 ////////////////////////////////////////////////////////////
  
 // add_options_page ( string $page_title, string $menu_title, string $capability, string $menu_slug, callable $function = '' )
-function bsu_a11y_custom_admin_menu() {
+function boise_state_a11y_custom_admin_menu() {
     add_options_page(
         'Boise State a11y options',
         'Boise State a11y options',
         'manage_options',
         'bsu-a11y-plugin',
-        'bsu_a11y_options_page'
+        'boise_state_a11y_options_page'
     );
 }
 
@@ -109,5 +109,5 @@ function boise_state_a11y_options_page() {
 }
 
 // Comment out this line to disable the entire Boise State A11y Options menu
-add_action( 'admin_menu', 'boise_state_a11y_options_page' );
+add_action( 'admin_menu', 'boise_state_a11y_custom_admin_menu' );
 
