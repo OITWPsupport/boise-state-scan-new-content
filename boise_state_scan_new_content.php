@@ -1,9 +1,11 @@
 <?php
 /*
 Plugin Name: Boise State Scan New Content
+Plugin URI: https://github.com/OITWPsupport/boise-state-scan-new-content/releases/latest
 Description: Triggers an accessibility scan of each new or updated page and post. Adds an admin menu and form for maintaining associated info.
 Version: 1.0.1
 Author: David Lentz
+Author URI: https://webguide.boisestate.edu/
  */
 
 defined( 'ABSPATH' ) or die( 'No hackers' );
