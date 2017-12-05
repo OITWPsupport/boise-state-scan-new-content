@@ -5,7 +5,7 @@ This document describes how to use the Boise State Scan New Content WordPress pl
 When installed and activated on a WordPress site, the Boise State Scan New Content plugin triggers an automated scan of all new or updated content you publish. This scan looks at the newly published page for accessibility errors, and automatically emails a summary of any errors to the WP Support team (wp-support-group@boisestate.edu). The Site Admin can choose to receive this email, too.
 
 # Installation
-The Boise State Scan New Content is available at
+The Boise State Scan New Content plugin is available at
 https://github.com/OITWPsupport/boise-state-scan-new-content/releases/latest
 To install it for the first time, download the zip file and upload it to your WordPress site. To update the plugin, select Network Admin -> Dashboard -> Updates and look for "Boise State Scan New Content” on the list of plugins with available updates.
 
