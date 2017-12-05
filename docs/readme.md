@@ -6,7 +6,7 @@ When installed and activated on a WordPress site, the Boise State Scan New Conte
 
 # Installation
 The Boise State Scan New Content plugin is available at
-https://github.com/OITWPsupport/boise-state-scan-new-content/releases/latest
+https://github.com/OITWPsupport/boise-state-scan-new-content/releases/latest.
 To install it for the first time, download the zip file and upload it to your WordPress site. To update the plugin, select Network Admin -> Dashboard -> Updates and look for "Boise State Scan New Content” on the list of plugins with available updates.
 
 # Configuration
